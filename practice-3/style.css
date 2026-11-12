@@ -1,0 +1,23 @@
+.container {
+    background: #ffa07a;
+    display: flex;
+    margin: 20px auto;
+}
+.box {
+    width: 150px;
+    height: 100px;
+    background: #fafad2;
+    padding: 10px 15px;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 100px;
+}
+.box-center {
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.box-between {
+    padding: 20px;
+    justify-content: space-between;
+}
